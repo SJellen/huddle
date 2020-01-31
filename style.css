@@ -102,19 +102,62 @@ button {
 
     body {
         width: 375px;
-        background-size: cover;
+        background-image: url("./images/bg-mobile.svg");
+        background-size: 585px;
         background-repeat: no-repeat;
+        
+        
+        
+       
+        
     }
 
     #logo {
+        width: 200px;
         margin: 50px;
+
     }
 
 
-#mock {
+    #message {
+   text-align: center;
+   position: absolute;
+   bottom: 0;
+   margin-bottom: -270px;
+   margin-left: 50px;
     
-    width: 420px;
+  }
+  
+  #message h1 {
+     text-align: center;
+    
+  }
+  
+  #message p {
+      
+     
+  }
+
+
+
+#mock {
+    margin-left: 55px;
+    width: 480px;
+    margin-top: 195px;
+    
  }
+
+ .attribution {
+     position: absolute;
+     bottom: 0;
+     margin-bottom: -600px;
+ }
+
+#social {
+   position: absolute;
+   bottom: 0;
+   margin-bottom: -500px;
+}
 
 
 } 
